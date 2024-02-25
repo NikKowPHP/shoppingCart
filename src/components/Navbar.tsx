@@ -2,9 +2,9 @@ import {
   Button,
   Container,
   Nav,
-  NavLink,
   Navbar as NavbarBs,
 } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 export function Navbar() {
   return (
     <NavbarBs sticky="top" className="bg-white shadow-sm mb-3">
